@@ -1,0 +1,136 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color:hsl(180, 100%, 95%)
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  color: rgb(45, 165, 97);
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+h3 {
+  font-style:italic;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: left;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navlist
+{
+  text-align: center;
+}
+
+.navlist li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  background-color: hsl(180, 100%, 40%);
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navlist li:hover {
+background-color: hsl(180, 100%, 10%);
+}
+
+.image-container {
+    overflow: hidden;
+ 
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  width: 60%;
+  margin: 10px auto;
+  border: 2px solid;
+  border-radius: 20px;
+    background-color: deepskyblue;
+
+}
+
+.left { 
+  flex: 1; 
+  padding: 20px;
+  margin: auto;
+  width:20%;
+    background-color: transparent;
+
+ } 
+
+.right { 
+  flex: 1; 
+  padding: 20px; 
+  margin: auto;
+  width: 40%;
+  align-content: center;
+  text-align: left;
+    background-color: transparent;
+
+} 
+
+.container:hover {
+  background-color:hsl(195, 100%, 40%) ;
+}
+
+.right h2{background-color: transparent; color: white} 
+
+.right a{background-color: transparent;} 
+
+.right p{background-color: transparent;} 
+
+@media screen and (max-width:1000px) {
+  .left {
+    min-width: 200px
+  }
+}
+
+  .articlelist {
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.articlelist li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  border: 2px solid blue;
+  max-height: 30px;
+  max-width: 40px;
+
+
+}
+
+.articlelist li a {
+   color: white;
+}
