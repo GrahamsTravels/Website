@@ -1,0 +1,94 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color:hsl(180, 100%, 95%)
+}
+
+html {
+  font-size: 16px;
+}
+
+.banner h1 {
+  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczMcDZ2CcZbeQnxRRrjjabjHQx6uX8fT1OhRlq84eT_P_no95s92yg6XdjOPBypaDB0RNWv1VWKqktT16g9JmOY-beEw_FnQxV6MfPE6VlAJ9hY0aOP6Uqiz8bbbDSycK4JCsOdGOko-EVLrCgpOVbs4=w1376-h1033-s-no-gm?authuser=0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem auto;
+      color: hsl(180, 100%, 10%);
+
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 10px auto;
+  width: 75%;
+  text-align: center;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem 1rem auto;
+      color:hsl(220, 100%, 50%)
+}
+
+.row {
+  text-align: center;
+}
+
+.image-container {
+ margin: 0 auto;
+  display: inline-block;
+  width:40%;
+  position: relative;
+ }
+
+.image-container img {
+  margin: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  color: hsl(180, 100%, 25%);
+  text-align: center;
+}
+
+.navlist {
+  color: white;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.navlist li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  background-color: hsl(180, 100%, 40%);
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+
+
+}
+
+
+.navlist li:hover {
+background-color: hsl(180, 100%, 10%);
+}
