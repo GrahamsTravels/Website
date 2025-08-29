@@ -1,0 +1,66 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color:hsl(180, 100%, 95%)
+}
+
+html {
+  font-size: 16px;
+}
+
+header .banner h1 {
+  background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNABv_7lqt8GcbM92j6a_svX6zOOWJo-F6Rrz0wSQgGZLbZiOCh7qvaMgq5-_NvNRbxXehpM9JuQNejgig_CbACPMlyY90fncP3ozT1AmQr6UGQZU3CEUWWKbg3_kcIOm0J_leaHIFzeDEN-3-IkEC3=w1920-h578-s-no-gm?authuser=0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+  width: 100%;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 75%;
+  text-align: justify;
+  margin: 10px auto;
+}
+
+.image-container {
+  display: block;
+  width: 60%;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  color: hsl(180, 100%, 25%);
+  text-align: center;
+}
+
+.navlist
+{
+  text-align: center;
+}
+
+.navlist li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  background-color: hsl(180, 100%, 40%);
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navlist li:hover {
+background-color: hsl(180, 100%, 10%);
+}
