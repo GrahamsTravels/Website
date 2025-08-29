@@ -10,7 +10,7 @@ html {
 p {
   font-size: 1.5rem;
   line-height: 1.5;
-  width: 75%;
+  width: 60%;
   text-align: center;
   margin: 10px auto;
   color: #1D90CF
@@ -98,3 +98,4 @@ figcaption {
   color: hsl(180, 100%, 25%);
   text-align: center;
 }
+
