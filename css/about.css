@@ -45,7 +45,7 @@ background-color: hsl(180, 100%, 10%);
 .row {
   display: flex;
   width:90%;
-  margin: 10px 10%;
+  margin: 10px 5%;
 }
 
 .left_column { 
@@ -98,4 +98,5 @@ figcaption {
   color: hsl(180, 100%, 25%);
   text-align: center;
 }
+
 
