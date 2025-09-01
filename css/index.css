@@ -146,4 +146,6 @@ background-color: hsl(180, 100%, 10%);
     font-size: 2rem;
     padding: 20px 40px;
 }
+p {
+  font-size: 2rem
 }
