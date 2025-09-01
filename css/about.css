@@ -98,3 +98,11 @@ figcaption {
   color: hsl(180, 100%, 25%);
   text-align: center;
 }
+
+@media only screen and (max-width: 1000px) and (orientation: portrait){
+p {
+  font-size: 2.5rem
+}
+
+
+}
