@@ -1,4 +1,4 @@
-1* {
+* {
   font-family: Helvetica, Arial, sans-serif;
   background-color:hsl(180, 100%, 95%)
 }
@@ -75,5 +75,6 @@ background-color: hsl(180, 100%, 10%);
     width: 90%;
   }
 }
+
 
 
