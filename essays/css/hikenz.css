@@ -63,4 +63,15 @@ figcaption {
 
 .navlist li:hover {
 background-color: hsl(180, 100%, 10%);
+
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 2rem;
+    width: 95%;
+  }
+  .image-container {
+    width: 90%;
+  }
 }
