@@ -110,7 +110,6 @@ background-color: hsl(180, 100%, 10%);
 
 .right p{background-color: transparent;} 
 
-
 @media only screen and (max-width: 1000px) and (orientation: portrait) {
   h2 {
     font-size: 3rem;
