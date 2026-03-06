@@ -81,10 +81,11 @@ background-color: hsl(180, 100%, 10%);
     width: 95%;
   }
   .image-container {
-    width: 50%;
+    width: 90%;
   }
     .navlist li {
     font-size: 2rem;
     padding: 20px 40px;
 }
+
 }
